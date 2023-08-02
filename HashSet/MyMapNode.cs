@@ -52,6 +52,7 @@ namespace HashSet
                 {
                     itemfound = true;
                     foundItem = item;
+                    Console.WriteLine("The word " + item.Value + " is Removed ");
                 }
             }
             if (itemfound)
